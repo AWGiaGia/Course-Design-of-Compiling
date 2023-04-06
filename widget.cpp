@@ -1,4 +1,4 @@
-﻿#include "widget.h"
+#include "widget.h"
 #include "ui_widget.h"
 
 
@@ -116,7 +116,7 @@ void Widget::on_GeneButton_clicked()
         switch(JUDGE_RESULT)
         {
             case 1: PRODUCTION_OUT = "文法输入错误（正确输入形如G[N]，N表示开始符号）\n";    break;
-            case 2: PRODUCTION_OUT = "产生式为空，或者未输入终结符\n"; break;
+            case 2: PRODUCTION_OUT = "产生式为空，或者未输入非终结符\n"; break;
             case 3: PRODUCTION_OUT = "产生式左侧缺少非终结符号（错误输入形如a::=b|c，其中a、b、c均为终结符号）";  break;
         }
 
