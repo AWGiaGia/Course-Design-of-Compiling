@@ -117,7 +117,7 @@
      <x>170</x>
      <y>580</y>
      <width>531</width>
-     <height>131</height>
+     <height>181</height>
     </rect>
    </property>
   </widget>
@@ -173,12 +173,12 @@
     <rect>
      <x>30</x>
      <y>10</y>
-     <width>411</width>
+     <width>601</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Authored by：编译原理病院(fx、wzy、lyn、xrk、aw)</string>
+    <string>Authored by：IS131 刘嘉伟      小组成员：lyn、fx、wzy、xrk、aw</string>
    </property>
   </widget>
  </widget>
